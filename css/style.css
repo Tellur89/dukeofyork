@@ -764,7 +764,8 @@ body {
   .MySlides__img {
     width: 62.4rem;
     height: 42.5rem;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    box-shadow: 1px 1px 15px #313131; }
     @media (max-width: 75em) {
       .MySlides__img {
         width: 56.16rem;
@@ -787,7 +788,7 @@ body {
   margin-right: 7rem; }
 
 .about {
-  background-image: url(../img/pub.jpg);
+  background-image: linear-gradient(rgba(137, 168, 201, 0.55), rgba(78, 124, 173, 0.5), rgba(137, 168, 201, 0.55)), url(../img/pub.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
